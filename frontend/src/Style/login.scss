@@ -1,0 +1,43 @@
+body{
+    width: 100vw;
+    .login-container {
+        background-color: #483C46;
+        margin-top: 100px;
+        width: 400px;
+        border: 1px solid #201b1f;
+        border-radius: 10px;
+        padding: 40px;
+        padding-top: 20px;
+        box-shadow: 4px 4px 6px black;
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            font-family: 'Play Bold';
+            font-size: 20px;
+            .response {
+                padding-bottom: 10px;
+                span {
+                    color: rgb(231, 22, 22);
+                    font-family: 'Play';
+                }
+            }
+            .name-txt {
+                color: rgb(230, 230, 230);
+            }
+            .input {
+                margin-bottom: 20px;
+                height: 40px;
+                border-radius: 5px;
+                border: 2px solid #b3b6aa;
+                background-color: #E9EDDE;
+                font-size: 20px;
+                transition: 0.2s;
+                &:focus {
+                    box-shadow: 0 0 4px 3px #3C6E71;
+                }
+            }
+        }
+        
+    }
+}
